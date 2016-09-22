@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+<head>
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="static/css/materialize.css" media="screen,projection">
+    <link type="text/css" rel="stylesheet" href="static/css/curso.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Curso JQUERY</title>
+</head>
+<body>
+<nav>
+    <div class="navbar-fixed">
+        <div class="brand-logo center">Minicurso Jquery - Aula 1 - Exercicio 1</div>
+    </div>
+</nav>
+<div id="conteudo">
+    <div id="formulario">
+        <div class="row">
+            <div class="input-field col s12">
+                <i class="material-icons prefix">mode_edit</i>
+                <textarea id="texto" class="materialize-textarea" maxlength="60"></textarea>
+                <label for="texto">Digite o texto</label>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s6">
+                <strong>Caracteres digitados:</strong>
+                <span id="contagem">0</span>
+            </div>
+            <div class="col s6">
+                <img src="static/img/imagem.jpeg" id="imagem"  class="circle responsive-img oculta">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s6">
+                <a class="waves-effect waves-light btn" id="limpar">Limpar</a>
+            </div>
+        </div>
+    </div>
+    <script src="static/js/jquery.js"></script>
+    <script src="static/js/materialize.js"></script>
+    <script src="static/js/curso.js"></script>
+</body>
+</html>

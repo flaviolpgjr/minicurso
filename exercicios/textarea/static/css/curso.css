@@ -1,0 +1,21 @@
+#formulario{
+    margin: 10px auto;
+    width: 100%;
+    max-width: 980px;
+    padding:0 15px;
+}
+
+#limpar{
+    margin-left: 40px;
+}
+strong{
+    margin-left: 40px;
+}
+
+#contagem{
+    color:#00e676;
+}
+
+.oculta{
+    display: none;
+}
