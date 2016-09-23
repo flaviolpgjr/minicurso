@@ -1,0 +1,49 @@
+.content{
+    height:40px;
+    margin-bottom:10px;
+    overflow: hidden;
+}
+
+#conteudo{
+    margin: 10px auto;
+    width: 100%;
+    max-width: 980px;
+    padding:0 15px;
+}
+
+#imagem{
+    margin-left:24px;
+    width: 71%;
+
+}
+.img{
+    height:40px;
+}
+
+.fa-3x {
+    font-size: 6em;
+}
+
+.carregando{
+    display:none;
+    text-align:center;
+}
+
+.resultado {
+    margin-left:24px;
+}
+
+h4{
+    color:grey;
+    text-align:center;
+}
+.oculta, #palmeiras {
+    display:none;
+}
+
+div.content > img.circle.responsive-img.img{
+    max-width: 16%;
+    height: 28px;
+    margin-bottom: -9px;
+}
+

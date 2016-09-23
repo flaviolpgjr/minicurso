@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+    <head>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link type="text/css" rel="stylesheet" href="static/css/font-awesome.css">
+        <link type="text/css" rel="stylesheet" href="static/css/materialize.css" media="screen,projection">
+        <link type="text/css" rel="stylesheet" href="static/css/curso.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>Curso JQUERY</title>
+    </head>
+    <body>
+        <nav>
+            <div class="navbar-fixed">
+                <div class="brand-logo center">Minicurso Jquery - Aula 2 - Exercício 1</div>
+            </div>
+        </nav>
+        <div id="conteudo">
+            <div class="row">
+                <div class="input-field col s6">
+                    <input id="cep" type="text" class="validate">
+                    <label for="cep">Digite o cep:</label>
+                </div>
+                <div class="input-field col s6">
+                    <a class="btn-floating btn-large waves-effect waves-light blue darken-1" ><i class="material-icons" id="buscar">search</i></a>
+                    <a class="btn waves-effect waves-light blue darken-1" id="limpar">Limpar</a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="carregando">
+                    <i class="fa fa-spinner fa-pulse fa-3x fa-fw"></i>
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-field col s6">
+                    <input id="rua" type="text" class="validate">
+                    <label class="active" for="rua">Rua:</label>
+                </div>
+                <div class="input-field col s6">
+                    <input id="bairro" type="text" class="validate">
+                    <label class="active" for="bairro">Bairro:</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-field col s6">
+                    <input id="cidade" type="text" class="validate">
+                    <label class="active" for="cidade">Cidade:</label>
+                </div>
+                <div class="input-field col s2">
+                    <input id="estado" type="text" class="validate">
+                    <label class="active" for="estado">Estado:</label>
+                </div>
+                <div class="input-field col s4">
+                    <input id="complemento" type="text" class="validate">
+                    <label class="active" for="complemento" >Complemento:</label>
+                </div>
+            </div>
+        </div>
+        <script src="static/js/jquery.js"></script>
+        <script src="static/js/materialize.js"></script>
+        <script src="static/js/curso.js"></script>
+    </body>
+</html>

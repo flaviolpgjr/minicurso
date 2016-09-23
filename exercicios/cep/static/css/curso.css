@@ -1,0 +1,15 @@
+#conteudo{
+    margin: 10px auto;
+    width: 100%;
+    max-width: 980px;
+    padding:0 15px;
+}
+
+.fa-3x {
+	font-size: 6em;
+}
+
+.carregando{
+    display:none;
+    text-align:center;
+}
